@@ -1,0 +1,27 @@
+body {font-family: 'Caesar Dressing', cursive; font-size:80%; background-image:url("background.jpg");}
+#outerblock {position: relative; margin: 0 auto; width:900px; height:650px;}
+#titleblock {width:900px; height:100px}
+#titleimageblock {margin: 0 auto; width:373px;}
+#contentblock {position: relative; width:900px; height:500px; }
+#contentimageblock {margin: 0 auto; width:800px; height:500px; background-image:url("content-background.png");}
+#leftchevrontop {display: block; position: absolute; width:56px; height:68px; top:72; background-image:url("chevron-left-no.png");}
+#leftchevrontop:hover {background-image:url("chevron-left-yes.png");}
+#rightchevrontop {display: block; position: absolute; width:56px; height:68px; left:850px; top:72; background-image:url("chevron-right-no.png");}
+#rightchevrontop:hover {background-image:url("chevron-right-yes.png");}
+#leftchevronmiddle {display: block; position: absolute; width:56px; height:68px; top:218; background-image:url("chevron-left-no.png");}
+#leftchevronmiddle:hover {background-image:url("chevron-left-yes.png");}
+#rightchevronmiddle {display: block; position: absolute; width:56px; height:68px; left:850px; top:218; background-image:url("chevron-right-no.png");}
+#rightchevronmiddle:hover {background-image:url("chevron-right-yes.png");}
+#leftchevronbottom {display: block; position: absolute; width:56px; height:68px; top:360; background-image:url("chevron-left-no.png");}
+#leftchevronbottom:hover {background-image:url("chevron-left-yes.png");}
+#rightchevronbottom {display: block; position: absolute; width:56px; height:68px; left:850px; top:360; background-image:url("chevron-right-no.png");}
+#rightchevronbottom:hover {background-image:url("chevron-right-yes.png");}
+#lefttoppictureblock {position:absolute; width:300px; height:100px; left:123px; top:50px;}
+#righttoptextblock {position:absolute; width:300px; height:100px; left:487px; top:50px;}
+#leftmiddlepictureblock {position:absolute; width:300px; height:100px; left:123px; top:200px;}
+#rightmiddletextblock {position:absolute; width:300px; height:100px; left:487px; top:200px;}
+#leftbottompictureblock {position:absolute; width:300px; height:100px; left:123px; top:340px;}
+#rightbottomtextblock {position:absolute; width:300px; height:100px; left:487px; top:340px;}
+#footerblock {width 900px; height:50px;}
+#footerimageblock {display: block; margin: 0 auto; width: 282px; height:50px; background-image:url("random-no.png");}
+#footerimageblock:hover {background-image:url("random-yes.png");}

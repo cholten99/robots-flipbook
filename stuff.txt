@@ -1,0 +1,20 @@
+    <SCRIPT language="JavaScript">
+    <!--
+
+    function myPreload()
+    {
+      preloadHead = new Image();
+      preloadBody = new Image();
+      preloadLegs = new Image();
+
+      for(i=1; i<=100; i++) {
+        preloadHead.src = "head_" + i + ".jpg";
+        preloadBody.src = "body_" + i + ".jpg";
+        preloadLegs.src = "legs_" + i + ".jpg";
+      }
+    }
+
+    document.getElementById('spinner').style.visibility = 'hidden'; 
+
+    //-->
+    </SCRIPT>  
